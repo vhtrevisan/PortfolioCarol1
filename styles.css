@@ -1,0 +1,59 @@
+/* Estilos para o layout responsivo e formatação das páginas */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #EEEDE7;
+  color: #464749;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #B9B7BD;
+}
+
+h1 {
+  color: #868B8E;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.project h3 {
+  color: #E7D2CC;
+  text-align: center;
+}
+
+/* Estilos para o painel de admin */
+.login-container, .dashboard-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="file"], button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #B9B7BD;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #868B8E;
+}

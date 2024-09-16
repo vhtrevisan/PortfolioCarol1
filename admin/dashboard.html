@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Admin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <h2>Adicionar Novo Projeto</h2>
+    <form id="new-project-form">
+      <input type="text" placeholder="Título do Projeto" required>
+      <input type="file" id="project-image" accept="image/*" required>
+      <button type="submit">Salvar Projeto</button>
+    </form>
+
+    <h2>Projetos Cadastrados</h2>
+    <ul id="project-list"></ul>
+  </div>
+  <script type="module" src="admin-scripts.js"></script>
+</body>
+</html>
