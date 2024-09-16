@@ -16,7 +16,7 @@ loginForm.addEventListener('submit', async (e) => {
 
   try {
     const userCredential = await signInWithEmailAndPassword(window.firebase.auth, email, password);
-    window.location.href = "dashboard.html"; // Redireciona para o painel de administração
+    window.location.href = "admin/dashboard.html"; // Redireciona para o painel de administração
   } catch (error) {
     alert("Erro de autenticação: " + error.message);
   }
